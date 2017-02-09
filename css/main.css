@@ -26,7 +26,7 @@ img {
 	height: 600px;
 	background-color: #d9ecf3;
 	margin:5px;
-	margin-bottom: 10px 
+	margin-bottom: 10px;
 }
 
 /* Section-One-Second-Column */
@@ -37,7 +37,9 @@ img {
 	height: 600px;
 	background: #b2b2b2;
 	margin:5px;
-	margin-bottom: 10px 
+	margin-bottom: 10px;
+	background-image: url("../images/section1-image2-medium.jpg");
+	background-size: cover;
 }
 
 /* Section-One-Third-Column */
@@ -82,7 +84,7 @@ img {
 	height: 600px;
 	background-color: #d9ecf3;
 	margin:5px;
-	margin-bottom: 10px 
+	margin-bottom: 10px;
 }
 
 /* Section-Two-Second-Column */
@@ -116,7 +118,7 @@ img {
 	height: 600px;
 	background: #b2b2b2;
 	margin:5px;
-	margin-bottom: 10px 
+	margin-bottom: 10px;
 }
 
 /* Media Query */

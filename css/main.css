@@ -156,7 +156,7 @@ nav a:hover {
 	order: 1;
 	flex: 2.5;
 	height: 600px;
-	background-color: #d9ecf3;
+	background-color: black;
 	margin:5px;
 	margin-bottom: 10px;
     background-size: cover;
@@ -176,7 +176,7 @@ nav a:hover {
 .small-column-top-1 {
 
 	height: 295px;
-	background-color: #e6f0d7;
+	background-color: black;
 	margin-bottom: 10px;
     background-size: cover;
     overflow: hidden;
@@ -185,7 +185,7 @@ nav a:hover {
 .small-column-bottom-1 {
 
 	height: 295px;
-	background-color: #dedad1;
+	background-color: black;
 	margin-bottom: 10px;
     background-size: cover;
     overflow: hidden;
@@ -198,7 +198,7 @@ nav a:hover {
 	order: 2;
 	flex: 5;
 	height: 600px;
-	background: #b2b2b2;
+	background: black;
 	margin:5px;
 	margin-bottom: 10px;
     background-size: cover;
@@ -223,7 +223,7 @@ nav a:hover {
 	order: 2;
 	flex: 2.5;
 	height: 600px;
-	background-color: #d9ecf3;
+	background-color: black;
 	margin:5px;
 	margin-bottom: 10px;
     background-size: cover;
@@ -243,7 +243,7 @@ nav a:hover {
 .small-column-top-2 {
 
 	height: 295px;
-	background-color: #e6f0d7;
+	background-color: black;
 	margin-bottom: 10px;
     background-size: cover;
     overflow: hidden;
@@ -252,7 +252,7 @@ nav a:hover {
 .small-column-bottom-2 {
 
 	height: 295px;
-	background-color: #dedad1;
+	background-color: black;
 	margin-bottom: 10px;
     background-size: cover;
     overflow: hidden;
@@ -265,17 +265,12 @@ nav a:hover {
 	order: 3;
 	flex: 5;
 	height: 600px;
-	background: #b2b2b2;
+	background: black;
 	margin:5px;
 	margin-bottom: 10px;
     background-size: cover;
     overflow: hidden;
 }
-
-
-
-
-
 
 
 
@@ -314,6 +309,8 @@ nav a:hover {
 
         display: flex;
         justify-content: space-around;
+            flex-direction: row;
+
     }
 
     nav li {
@@ -325,5 +322,101 @@ nav a:hover {
 
         display: flex;
         justify-content: space-around;
+            flex-direction: row;
     }
+}
+
+
+
+
+
+
+
+.tall-column-1 img, .large-column-1 img, .small-column-top-1 img, .small-column-bottom-1 img,
+.tall-column-2 img, .large-column-2 img, .small-column-top-2 img, .small-column-bottom-2 img {
+
+   opacity: 1;
+   -webkit-transition: color .2s ease-in-out,opacity .2s ease-in-out;
+   transition: color .2s ease-in-out,opacity .2s ease-in-out;
+}
+
+.tall-column-1 img:hover, .large-column-1 img:hover, .small-column-top-1 img:hover, .small-column-bottom-1 img:hover,
+.tall-column-2 img:hover, .large-column-2 img:hover, .small-column-top-2 img:hover, .small-column-bottom-2 img:hover {
+
+   background: black;
+   opacity: 0.5;
+  -webkit-transition: color .2s ease-in-out,opacity .2s ease-in-out;
+  transition: color .2s ease-in-out,opacity .2s ease-in-out;
+}
+
+.overlay-text {
+   font-family: Courier,Courier New,monospace;
+   margin-left: 30px;
+   -webkit-transition: color .3s ease-in-out,opacity .3s ease-in-out;
+   transition: color .3s ease-in-out,opacity .3s ease-in-out;
+ 
+}
+
+.tall-column-1:hover .overlay-text {
+  position: relative;
+  top: -10%;
+  color: white;
+  -webkit-transition: color .3s ease-in-out,opacity .3s ease-in-out;
+  transition: color .3s ease-in-out,opacity .3s ease-in-out;
+}
+
+.large-column-1:hover .overlay-text {
+  position: relative;
+  top: -10%;
+  color: white;
+  -webkit-transition: color .3s ease-in-out,opacity .3s ease-in-out;
+  transition: color .3s ease-in-out,opacity .3s ease-in-out;
+}
+
+.small-column-top-1:hover .overlay-text {
+  position: relative;
+  top: -17%;
+  color: white;
+  -webkit-transition: color .3s ease-in-out,opacity .3s ease-in-out;
+  transition: color .3s ease-in-out,opacity .3s ease-in-out;
+}
+
+.small-column-bottom-1:hover .overlay-text {
+  position: relative;
+  top: -17%;
+  color: white;
+  -webkit-transition: color .3s ease-in-out,opacity .3s ease-in-out;
+  transition: color .3s ease-in-out,opacity .3s ease-in-out;
+}
+
+.tall-column-2:hover .overlay-text {
+  position: relative;
+  top: -10%;
+  color: white;
+  -webkit-transition: color .3s ease-in-out,opacity .3s ease-in-out;
+  transition: color .3s ease-in-out,opacity .3s ease-in-out;
+}
+
+.large-column-2:hover .overlay-text {
+  position: relative;
+  top: -10%;
+  color: white;
+  -webkit-transition: color .3s ease-in-out,opacity .3s ease-in-out;
+  transition: color .3s ease-in-out,opacity .3s ease-in-out;
+}
+
+.small-column-top-2:hover .overlay-text {
+  position: relative;
+  top: -17%;
+  color: white;
+  -webkit-transition: color .3s ease-in-out,opacity .3s ease-in-out;
+  transition: color .3s ease-in-out,opacity .3s ease-in-out;
+}
+
+.small-column-bottom-2:hover .overlay-text {
+  position: relative;
+  top: -17%;
+  color: white;
+  -webkit-transition: color .3s ease-in-out,opacity .3s ease-in-out;
+  transition: color .3s ease-in-out,opacity .3s ease-in-out;
 }

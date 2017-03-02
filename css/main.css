@@ -7,7 +7,9 @@ img {
     max-height: 100%;
 }
 
-/* Top Box */
+
+
+/* Logo/Upload */
 
 .top-box {
   
@@ -36,6 +38,11 @@ img {
    opacity: 0.40
 }
 
+.logo img:hover {
+
+   opacity: 0.75;
+}
+
 .upload {
 
   order: 3;
@@ -61,7 +68,10 @@ img {
    opacity: 0.75;
 }
 
-/* Navigation */
+
+
+
+/* Navbar */
 
 .navigation {
 	
@@ -111,37 +121,52 @@ nav a:hover {
     color: black;
 }
 
+
+
+
 /* Header */
 
 .header {
 	
 	width: 92%;
-  	margin: 0px auto 0 auto;
-  	margin-top: 32.5px;
-  	justify-content: center;
-  	flex-direction: row;
-    font-weight: 400;
-    line-height: 1.6;
-    font-family: sans-serif;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-    letter-spacing: -0.15px;
-    font-size: 46.2px;
+  margin: 0px auto 0 auto;
+  justify-content: center;
+  flex-direction: row;
 }
 
-.trending {
+.imagebae {
 
 	width: 100%;
-  	margin: 0px auto 0 auto;
-  	color: ;
+  margin: 0px auto 0 auto;
 	text-align: center;
+  margin-top: 12.5px;
+  font-family: sans-serif;
+  letter-spacing: -0.15px;
+  font-size: 46.2px;
 }
+
+.description {
+
+  width: 100%;
+  margin: 0px auto 0 auto;
+  text-align: center;
+  margin-top: 30px;
+  font-family: Courier,Courier New,monospace;
+  letter-spacing: -0.15px;
+  font-weight: 100px;
+  font-size: 15px;
+}
+
+
+
+
+/* Social-Icons */
 
 .social {
 
     width: 8.5%;
     margin: 0px auto 0 auto;
-    margin-top: -10px;
+    margin-top: 40px;
     text-align: center;
     list-style-type: none;
 }
@@ -167,6 +192,9 @@ nav a:hover {
    opacity: 0.75;
 }
 
+
+
+
 /* Sub-Headings */
 
 .sub-heading {
@@ -174,6 +202,7 @@ nav a:hover {
     width: 100%;
     margin: 0px auto 0 auto;
     margin-top: -100px;
+    margin-left: 5px;
     justify-content: center;
     flex-direction: row;
     font-weight: 400;
@@ -193,6 +222,9 @@ nav a:hover {
   margin-top: 120px;
 	color: ;
 }
+
+
+
 
 /* Section-One */
 
@@ -261,6 +293,9 @@ nav a:hover {
   overflow: hidden;
 }
 
+
+
+
 /* Section-Two */
 
 .section-two {
@@ -328,6 +363,9 @@ nav a:hover {
   overflow: hidden;
 }
 
+
+
+
 /* Section-Three */
 
 .section-three {
@@ -339,7 +377,7 @@ nav a:hover {
   flex-direction: row;
 }
 
-/* Section-One-Tall-Column */
+/* Section-Three-Tall-Column */
 
 .tall-column-3 {
 
@@ -354,7 +392,7 @@ nav a:hover {
   position: center;
 }
 
-/* Section-One-Small-Column */
+/* Section-Three-Small-Column */
 
 .small-column-3 {
 
@@ -382,7 +420,7 @@ nav a:hover {
   overflow: hidden;
 }
 
-/* Section-One-Large-Column */
+/* Section-Three-Large-Column */
 
 .large-column-3 {
 
@@ -396,6 +434,9 @@ nav a:hover {
   overflow: hidden;
 }
 
+
+
+
 /* Section-Four */
 
 .section-four {
@@ -407,7 +448,7 @@ nav a:hover {
   flex-direction: row;
 }
 
-/* Section-One-Tall-Column */
+/* Section-Four-Tall-Column */
 
 .tall-column-4 {
 
@@ -421,7 +462,7 @@ nav a:hover {
   overflow: hidden;
 }
 
-/* Section-One-Small-Column */
+/* Section-Four-Small-Column */
 
 .small-column-4 {
 
@@ -449,7 +490,7 @@ nav a:hover {
   overflow: hidden;
 }
 
-/* Section-One-Large-Column */
+/* Section-Four-Large-Column */
 
 .large-column-4 {
 
@@ -462,6 +503,9 @@ nav a:hover {
   background-size: cover;
   overflow: hidden;
 }
+
+
+
 
 /* Footer */
 
@@ -501,6 +545,10 @@ nav a:hover {
 
     color: black;
 }
+
+
+
+
 
 /* Media Query */
 
@@ -586,7 +634,7 @@ nav a:hover {
 
 
 
-
+/* Hover-Overlay */
 
 .tall-column-1 img, .large-column-1 img, .small-column-top-1 img, .small-column-bottom-1 img,
 .tall-column-2 img, .large-column-2 img, .small-column-top-2 img, .small-column-bottom-2 img,

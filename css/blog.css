@@ -202,8 +202,8 @@ nav a:hover {
 	
 	width: 75%;
   margin: 0px auto 0 auto;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 70px;
+  margin-bottom: 50px;
   justify-content: center;
   flex-direction: row;
 }
@@ -211,7 +211,7 @@ nav a:hover {
 /* Section-One-Tall-Column */
 
 
-.image-left {
+.image {
 
 	order: 1;
 	flex: 1;
@@ -309,15 +309,10 @@ nav a:hover {
     width: 50px;
   }
 
-  .image-left {
+  .image {
 
 		width: 50%;
 	}
-
-  .image-right {
-
-    width: 50%;
-  }
 
 
     nav ul {
